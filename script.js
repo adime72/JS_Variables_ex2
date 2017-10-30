@@ -21,3 +21,10 @@ me.location= {               // Object inside an object
     city: "Kfar Yona"
 };
 
+console.log(JSON.stringify(me));
+me.language= {               // Object inside an object
+    hebrew: true,
+    english: true,
+    Russien: false,
+};
+console.log(typeof me.language.hebrew ); // the type of the key language
